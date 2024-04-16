@@ -15,3 +15,6 @@ COPY elgg/ajax.js      $WWWDir/vendor/elgg/elgg/views/default/core/js/
 COPY apache_elgg.conf /etc/apache2/sites-available/
 RUN  a2ensite apache_elgg.conf
 
+COPY csp /var/www/csp
+COPY apache_csp.conf   /etc/apache2/sites-available
+RUN  a2ensite apache_csp.conf

@@ -43,7 +43,7 @@ $CONFIG->dataroot = "/var/elgg-data/";
  *
  * @global string $CONFIG->wwwroot
  */
-$CONFIG->wwwroot = "http://www.seed-server.com/";
+$CONFIG->wwwroot = "http://www.palawa-xss.com/";
 
 /**
  * The database username
